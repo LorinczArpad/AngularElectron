@@ -70,3 +70,24 @@ function createWindow() {
 
 app.whenReady().then(createWindow);
 ```
+## Modify package.json
+```json
+{
+  "name": "angular-electron",
+  "version": "0.0.0",
+  "main": "app.js",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "electron": "electron .",
+    "electron-build": "ng build && electron ."
+  }
+``` 
+With main electron and electron-build
+## Run your Application
+```bash
+npm run electron-build
+```
