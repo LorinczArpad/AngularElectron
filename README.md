@@ -91,3 +91,11 @@ With main electron and electron-build
 ```bash
 npm run electron-build
 ```
+## Install electron packager
+```bash
+npm install -g electron-packager
+```
+## For Build use
+```bash
+electron-packager ./ appname --platform=win32 --overwrite
+```
