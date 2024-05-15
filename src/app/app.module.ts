@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { MenubarModule } from 'primeng/menubar';
 import { CardModule } from 'primeng/card';
 import { NgApexchartsModule } from "ng-apexcharts";
+import { HighchartsChartModule } from 'highcharts-angular';
 @NgModule({
   declarations: [
     AppComponent
@@ -14,8 +15,8 @@ import { NgApexchartsModule } from "ng-apexcharts";
     AppRoutingModule,
     MenubarModule,
     CardModule,
-    NgApexchartsModule
-    
+    NgApexchartsModule,
+    HighchartsChartModule
   ],
   providers: [],
   bootstrap: [AppComponent]
